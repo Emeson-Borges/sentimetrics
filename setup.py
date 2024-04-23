@@ -18,6 +18,6 @@ setup(
     long_description_content_type='text/markdown',
     author='Emeson Borges',
     author_email='borges2016.leh@gmail.com',
-    url='https://github.com/Emeson-Borges/emotions-analysis',
+    url='https://github.com/Emeson-Borges/sentimetrics',
     ext_modules=[module],
 )

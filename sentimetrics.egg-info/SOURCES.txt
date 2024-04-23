@@ -1,0 +1,7 @@
+README.md
+sentimetrics.c
+setup.py
+sentimetrics.egg-info/PKG-INFO
+sentimetrics.egg-info/SOURCES.txt
+sentimetrics.egg-info/dependency_links.txt
+sentimetrics.egg-info/top_level.txt

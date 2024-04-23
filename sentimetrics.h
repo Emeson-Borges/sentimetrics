@@ -1,5 +1,5 @@
-#ifndef EMOTIONS_ANALYSIS_H
-#define EMOTIONS_ANALYSIS_H
+#ifndef SENTIMETRICS_H
+#define SENTIMETRICS_H
 
 int sentimetrics(const char *text);
 

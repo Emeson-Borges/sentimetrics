@@ -63,7 +63,7 @@ static PyObject* sentimetrics(PyObject *self, PyObject *args) {
 
 // Lista de métodos disponíveis no módulo
 static PyMethodDef module_methods[] = {
-    {"sentimetrics", emotions_analysis, METH_VARARGS, "Analisa o sentimento do texto."},
+    {"sentimetrics", sentimetrics, METH_VARARGS, "Analisa o sentimento do texto."},
     {NULL, NULL, 0, NULL}
 };
 
@@ -77,6 +77,6 @@ static struct PyModuleDef module_def = {
 };
 
 // Função de inicialização do módulo
-PyMODINIT_FUNC PyInit_emotions_analysis_c(void) {
+PyMODINIT_FUNC PyInit_sentimetrics(void) {
     return PyModule_Create(&module_def);
 }
